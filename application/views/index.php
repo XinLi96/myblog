@@ -216,21 +216,21 @@
                     <div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-1.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="./images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="./images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
                     </div>
                     <div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-2.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
                     </div>
                     <div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="./images/pic-3.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="./images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
 
@@ -238,7 +238,7 @@
                     <div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-4.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
 
@@ -246,7 +246,7 @@
                     <div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-5.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
 
@@ -254,21 +254,21 @@
                     <div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-6.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
                     </div>
                     <div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog6" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-7.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
                     </div>
                     <div class="portfolio logo1 mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="logo1" style="display: inline-block; opacity: 1;">
                         <div class="portfolio-wrapper">
                             <a href="#small-dialog7" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-                                <img src="images/pic-8.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
+                                <img src="images/james.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iOS 7 Weather App Design<img src="images/icon-eye.png" alt=""/></h2>
                                 </div></a>
                         </div>
                     </div>
