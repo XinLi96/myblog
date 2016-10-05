@@ -1,3 +1,6 @@
+<?php
+    $cate_id = $this -> input -> get('cateId');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +8,7 @@
     <base href="<?php echo site_url();?>">
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/my.css">
     <script src="js/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -405,6 +409,43 @@
         </div>
     </div>
     <!-- portfolio-section-ends -->
+    <div id="works">
+       <div class="wrapper">
+           <div class="work-top">
+               <h3>Latest Works</h3>
+               <ul class="blog-cate">
+                   <li><a href="#" class="<?php echo !$cate_id?'active':'';?>">All</a></li>
+                   <?php
+                        foreach($categories as $cate){
+                   ?>
+                        <li><a class="<?php echo $cate_id==$cate->cate_id?'active':'';?>" href="welcome/index?cateId=<?php echo $cate->cate_id;?>"><?php echo $cate->cate_name;?></a></li>
+                   <?php
+                        }
+                   ?>
+               </ul>
+           </div>
+               <ul class="blog-list">
+                 <?php
+                    foreach($blogs as $blog){
+                 ?>
+                        <li class="blog"><a href="welcome/view_blog?blogId=<?php echo $blog->blog_id;?>">
+                                <img src="<?php echo $blog->img;?>" alt="">
+                                <div class="blog-desc">
+                                    <p class="blog-title"><?php echo $blog->title;?></p>
+                                    <span class="blog-clicked"><?php echo $blog->clicked;?></span>
+                                </div>
+                                <div class="mask">
+                                    <h4 class="mask-title">PHOTO</h4>
+                                    <span class="mask-btn">VIEW PHOTO</span>
+                                </div>
+                            </a>
+                        </li>
+                 <?php
+                    }
+                 ?>
+               </ul>
+       </div>
+    </div>
     <!-- blog-section-starts -->
     <div class="blog-section" id="BLOG">
         <div class="container">

@@ -19,8 +19,39 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+        $this -> load -> model('blog_category_model');
+        $this -> load -> model('blog_model');
+
+        $cate_id = $this -> input -> get('cateId');
+        if(!$cate_id){
+            //查所有的文章
+            $blogs = $this -> blog_model -> get_all();
+        }else{
+            //根据类别查询文章
+            $blogs = $this -> blog_model -> get_by_category($cate_id);
+        }
+        //查所有的文章类别
+        $categories = $this -> blog_category_model -> get_all();
+
+        //跳转页面
+		$this->load->view('index',array(
+		    'categories' => $categories,
+            'blogs' => $blogs
+        ));
+
 	}
+	public function view_blog(){
+	    $blog_id = $this -> input -> get('blogId');
+        $this -> load -> model('blog_model');
+        $blog = $this -> blog_model -> get_by_id($blog_id);
+        if($blog){
+            $this -> load -> view('blog_detail', array(
+                'blog' => $blog
+            ));
+        }else{
+            echo "未查到指定文章！";
+        }
+    }
 }
 
 /* End of file welcome.php */

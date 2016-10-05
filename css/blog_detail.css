@@ -1,0 +1,106 @@
+body{
+    background: #ccc;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+#article-content .title{
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    font-size: 2em;
+}
+#article-content .img{
+    width: 100%;
+}
+#article-content .content{
+    color: #8e8e8e;
+    padding: 13px 0px;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+#article-content .article-info{
+    padding: 10px 0px;
+    border: 1px dashed rgba(0, 0, 0, 0.61);
+    border-left: none;
+    margin-top: 5px;
+    border-right: none;
+    overflow: hidden;
+}
+#article-content .article-info li{
+    float: left;
+    color: #000;
+    padding-left: 20px;
+}
+#article-content .article-info li small{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/img-sprite.png) no-repeat;
+}
+#article-content .article-info li.date small{
+    background-position: -15px -20px;
+}
+#article-comment h3{
+    color: #000;
+    text-align: left;
+    text-transform: none;
+    padding-top: 14px;
+    margin: 0;
+    font-size: 1.6em;
+ }
+#article-comment .comment{
+    margin:1.5em 0;
+    background: #eee;
+    padding: 1.6em;
+    width: 70%;
+}
+.text-box{
+    border: none;
+    outline: none;
+    padding: 1em;
+    margin-top: 23px;
+    color: #000;
+    overflow: hidden;
+    width: 40%;
+    display: block;
+    font-size: 1em;
+}
+#article-comment .comment-form input[type=submit]{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2em;
+    display: block;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding: 0.4em 1em;
+    margin: 0.8em 0 0;
+    background: #1f6551;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
