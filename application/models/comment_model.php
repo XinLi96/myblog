@@ -7,4 +7,14 @@ class Comment_model extends CI_Model {
             'blog_id' => $blog_id
         )) -> result();
     }
+    public function save($username, $email, $phone, $message, $blogId){
+        $this -> db -> insert('t_comment', array(
+            'username' => $username,
+            'email' => $email,
+            'phone' => $phone,
+            'message' => $message,
+            'blog_id' => $blogId
+        ));
+        return $this -> db -> affected_rows();
+    }
 }

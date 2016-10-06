@@ -27,7 +27,7 @@
     </div>
     <div id="article-comment">
        <div class="wrapper">
-           <h3><span class="comment-num"><?php echo count($blog -> comments);?></span>Response</h3>
+           <h3><span class="comment-num" id="comment-num"><?php echo count($blog -> comments);?></span> Response</h3>
            <ul class="comment-list">
                <?php
                     foreach ($blog -> comments as $comment){
@@ -45,13 +45,14 @@
            </ul>
            <div class="comment-form">
                <h3>leave a comment</h3>
-               <form action="" method="post">
+<!--               <form action="" method="post">-->
+                   <input type="hidden" id="blogId" value="<?php echo $blog->blog_id;?>">
                    <p><input type="text" placeholder="Name" class="text-box" id="username" name="username"></p>
                    <p><input type="email" placeholder="Email" class="text-box" id="email" name="email"></p>
                    <p><input type="tel" placeholder="Phone" class="text-box" id="phone" name="phone"></p>
                    <p><textarea name="message" id="message" placeholder="Message" class="text-box" cols="30" rows="10"></textarea></p>
-                   <p><input type="submit" value="SEND" id="btn-send"></p>
-               </form>
+                   <p><input type="button" value="SEND" id="btn-send"></p>
+<!--               </form>-->
            </div>
        </div>
     </div>
