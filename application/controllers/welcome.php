@@ -43,7 +43,9 @@ class Welcome extends CI_Controller {
 	public function view_blog(){
 	    $blog_id = $this -> input -> get('blogId');
         $this -> load -> model('blog_model');
+        $this -> load -> model('comment_model');
         $blog = $this -> blog_model -> get_by_id($blog_id);
+        $blog -> comments = $this -> comment_model -> get_by_blog($blog_id);
         if($blog){
             $this -> load -> view('blog_detail', array(
                 'blog' => $blog

@@ -27,15 +27,21 @@
     </div>
     <div id="article-comment">
        <div class="wrapper">
-           <h3><span class="comment-num">4</span>Response</h3>
+           <h3><span class="comment-num"><?php echo count($blog -> comments);?></span>Response</h3>
            <ul class="comment-list">
-               <li class="comment">
-                   <div class="comment-info">
-                       <span class="username">Admin</span>
-                       <span class="post-date">2016-10-19</span>
-                   </div>
-                   <p class="content">sdafnsf lknalkffansflknalkfasnk  lnaklsfnlsanflasnsafl  nlskdnasklfnklsanf</p>
-               </li>
+               <?php
+                    foreach ($blog -> comments as $comment){
+               ?>
+                        <li class="comment">
+                            <div class="comment-info">
+                                <span class="username"><?php echo $comment->username;?></span>
+                                <span class="post-date"><?php echo $comment->post_date;?></span>
+                            </div>
+                            <p class="content"><?php echo $comment->message;?></p>
+                        </li>
+               <?php
+                    }
+               ?>
            </ul>
            <div class="comment-form">
                <h3>leave a comment</h3>
@@ -44,10 +50,11 @@
                    <p><input type="email" placeholder="Email" class="text-box" id="email" name="email"></p>
                    <p><input type="tel" placeholder="Phone" class="text-box" id="phone" name="phone"></p>
                    <p><textarea name="message" id="message" placeholder="Message" class="text-box" cols="30" rows="10"></textarea></p>
-                   <p><input type="submit" value="SEND"></p>
+                   <p><input type="submit" value="SEND" id="btn-send"></p>
                </form>
            </div>
        </div>
     </div>
+    <script src="js/require.js" data-main="js/blog_detail"></script>
 </body>
 </html>
